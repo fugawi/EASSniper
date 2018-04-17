@@ -19,12 +19,12 @@ Threads - Number of password spraying threads to run
 Invoke-UsernameHarvestEAS -ExchHostname mail.domain.com -UserList .\userlist.txt -Threads 1 -OutFile eas-valid-users.txt
 
 Description
-This command will connect to EAS at https://mail.domain.com/Microsoft-Server-ActiveSync/ and attempt to harvest a list of valid usernames by password spraying the provided list of usernames with a single password over 1 thread and write to a file called eas-valid-users.txt.
+This command will connect to EAS at http[s]://mail.domain.com/Microsoft-Server-ActiveSync/ and attempt to harvest a list of valid usernames by password spraying the provided list of usernames with a single password over 1 thread and write to a file called eas-valid-users.txt.
 
 
 Invoke-PasswordSprayEAS -ExchHostname mail.domain.com -UserList .\userlist.txt -Password Foobar -Threads 15 -OutFile owa-sprayed-creds.txt
 
 Description
-This command will connect to EAS at https://mail.domain.com/Microsoft-Server-ActiveSync/ and password spray utilizing a single password 'Foobar'a to a list of usernames 'userlist.txt' and write to a file called 'owa-sprayed-creds.txt'.
+This command will connect to EAS at http[s]://mail.domain.com/Microsoft-Server-ActiveSync/ and password spray utilizing a single password 'Foobar'a to a list of usernames 'userlist.txt' and write to a file called 'owa-sprayed-creds.txt'.
 
 
