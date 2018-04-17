@@ -4,6 +4,7 @@ EASSniper is a penetration testing tool for account enumeration and brute force 
 This tool is based on the great work by Beau Bullock (@dafthack)/Fehrman and the MailSniper tool. EASSniper focuses specifically on Exchange Active Sync (EAS), consisting of two main functions:
 
 Invoke-UsernameHarvestEAS - Attempt to harvest active usernames via EAS
+
 Invoke-PasswordSprayEAS - Password spray attack performed against EAS 
 
 # Parameters
